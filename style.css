@@ -15,7 +15,12 @@
 
 body {
   font-family: "Archivo Narrow", sans-serif;
-  font-size: 14px; }
+  font-size: 14px;
+
+/*  -moz-transform: scale(0.8, 0.8);*/ /* (Moz-browsers) */
+/*  zoom: 0.8;*/ /* (Other non-webkit browsers) */
+/*  zoom: 80%;*/ /* (Webkit browsers) */
+}
 
 h1,
 h3,
@@ -553,6 +558,7 @@ img {
           letter-spacing: 5px;
           font-size: 50px;
           margin-top:350px;
+          margin-bottom: 100px;
           line-height: 50px; } }
     .single-hero-slide .hero-slides-content .btn {
       border: 1px solid #fff;
@@ -890,10 +896,13 @@ img {
     padding-bottom: 20%;
   }
   .main-title{
-    padding-top: 10%;
+    padding-top: 15%;
     margin-bottom: 20px !important;
     font-size: 80px !important;
     line-height: .9 !important;
+  }
+    .big-earl-text{
+    width: 500px;
   }
 }
 
@@ -909,3 +918,6 @@ img {
     line-height: 1 !important;
   }
 }
+
+
+
