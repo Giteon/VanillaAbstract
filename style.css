@@ -782,6 +782,9 @@ img {
       background: pink; }
     .single-song-area .song-play-area .audioplayer-time {
       font-size: 14px;
+      color: #000; }
+    .single-song-area .song-play-area-white .audioplayer-time {
+      font-size: 14px;
       color: #fff; }
 
 .song-play-area {
