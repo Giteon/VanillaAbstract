@@ -3,7 +3,6 @@
 @import url("https://fonts.googleapis.com/css?family=Shrikhand:400,400i,500,500i,600,600i,700,700i");
 
 @import url(css/bootstrap.min.css);
-@import url(css/classy-nav.css);
 @import url(css/owl.carousel.min.css);
 @import url(css/animate.css);
 @import url(css/magnific-popup.css);
@@ -884,3 +883,29 @@ img {
     .has-bg-img .oneMusic-btn:hover, .has-bg-img .oneMusic-btn:focus {
       background-color: #fff;
       color: #000000; }
+
+/*small tablet*/
+@media only screen and (min-width: 769px) and (max-width: 990px) { 
+  .main-song{
+    padding-bottom: 20%;
+  }
+  .main-title{
+    padding-top: 10%;
+    margin-bottom: 20px !important;
+    font-size: 80px !important;
+    line-height: .9 !important;
+  }
+}
+
+/*tablet*/
+@media only screen and (min-width: 991px) and (max-width: 1200px) { 
+  .main-song{
+    padding-bottom: 15%;
+  }
+  .main-title{
+    padding-top: 10%;
+    margin-bottom: 20px !important;
+    font-size: 80px !important;
+    line-height: 1 !important;
+  }
+}
