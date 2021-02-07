@@ -36,7 +36,7 @@ font-family: "Shrikhand", sans-serif;
 
 
 p {
-  font-family: "Archivo Narrow", sans-serif;
+  font-family: "Futura", sans-serif;
   color: #5f5f5f;
   font-size: 15px;
   line-height: 2;
@@ -522,6 +522,7 @@ img {
       font-size: 110px;
       color: #ffffff;
       margin-bottom: 240px;
+      margin-top: 70px;
       font-weight: 400;
       display: block;
       text-transform: capitalize;
@@ -765,7 +766,7 @@ img {
         width: 100%; } }
     .single-song-area .song-play-area .song-name p {
       color: #000000;
-      margin-bottom: 5px; }
+      margin-bottom: 20px; }
     .single-song-area .song-play-area .audioplayer {
       margin: 0;
       padding: 0;
@@ -778,7 +779,7 @@ img {
     .single-song-area .song-play-area .audioplayer-playing .audioplayer-playpause,
     .single-song-area .song-play-area .audioplayer:not(.audioplayer-playing) .audioplayer-playpause:hover,
     .single-song-area .song-play-area .audioplayer:not(.audioplayer-playing) .audioplayer-playpause {
-      background: #fff; }
+      background: pink; }
     .single-song-area .song-play-area .audioplayer-time {
       font-size: 14px;
       color: #fff; }
@@ -792,7 +793,7 @@ img {
  /* border: 1px solid #363636;*/ }
   .song-play-area .song-name p {
     color: #b8b8b8;
-    margin-bottom: 5px; }
+    margin-bottom: 20px; }
   .song-play-area .audioplayer {
     margin: 0;
     padding: 0;
